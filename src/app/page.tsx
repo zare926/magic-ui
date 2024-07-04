@@ -40,7 +40,7 @@ export default function Home() {
             <div className="flex flex-col gap-4">
               <BoxReveal boxColor={"#5046e6"} duration={0.5}>
                 <p className="text-[3.5rem] font-semibold">
-                  {process.env.COMPANY_NAME}
+                  {process.env.NEXT_PUBLIC_COMPANY_NAME}
                   <span className="text-[#5046e6]">.</span>
                 </p>
               </BoxReveal>
@@ -69,50 +69,50 @@ export default function Home() {
                   Mission
                 </span>
                 <h2 className="my-[.5rem] text-[1rem]">
-                  　{process.env.MISSION}
+                  　{process.env.NEXT_PUBLIC_MISSION}
                 </h2>
                 <span className="text-[#5046e6] font-bold text-lg">Vision</span>
                 <h2 className="my-[.5rem] text-[1rem]">
-                  　{process.env.VISION}
+                  　{process.env.NEXT_PUBLIC_VISION}
                 </h2>
                 <span className="text-[#5046e6] font-bold text-lg">Value</span>
                 <ul className="pl-5 list-none">
                   <li className="my-[.5rem] text-[1rem]">
-                    {process.env.CURIOSITY}
+                    {process.env.NEXT_PUBLIC_CURIOSITY}
                     <span className="text-[#8eaaac] ml-2 text-lg">
                       Curiosity
                     </span>
                   </li>
                   <li className="my-[.5rem] text-[1rem]">
-                    {process.env.ENJOY}
+                    {process.env.NEXT_PUBLIC_ENJOY}
                     <span className="text-[#8eaaac] ml-2 text-lg">Enjoy</span>
                   </li>
                   <li className="my-[.5rem] text-[1rem]">
-                    {process.env.IMPROVEMENT}
+                    {process.env.NEXT_PUBLIC_IMPROVEMENT}
                     <span className="text-[#8eaaac] ml-2 text-lg">
                       Improvement
                     </span>
                   </li>
                   <li className="my-[.5rem] text-[1rem]">
-                    {process.env.CONFIDENCE}
+                    {process.env.NEXT_PUBLIC_CONFIDENCE}
                     <span className="text-[#8eaaac] ml-2 text-lg">
                       Confidence
                     </span>
                   </li>
                   <li className="my-[.5rem] text-[1rem]">
-                    {process.env.CONSIDER}
+                    {process.env.NEXT_PUBLIC_CONSIDER}
                     <span className="text-[#8eaaac] ml-2 text-lg">
                       Consider
                     </span>
                   </li>
                   <li className="my-[.5rem] text-[1rem]">
-                    {process.env.PERCEIVE}
+                    {process.env.NEXT_PUBLIC_PERCEIVE}
                     <span className="text-[#8eaaac] ml-2 text-lg">
                       Perceive
                     </span>
                   </li>
                   <li className="my-[.5rem] text-[1rem]">
-                    {process.env.MAXIMIZE}
+                    {process.env.NEXT_PUBLIC_MAXIMIZE}
                     <span className="text-[#8eaaac] ml-2 text-lg">
                       Maximize
                     </span>
